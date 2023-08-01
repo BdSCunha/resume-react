@@ -1,15 +1,21 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
-  color: #213547;
-  background-color: #f9f9f9;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
+  --color-primary: #F2F0F0;
+  --color-secondary: #D9D5D2;
+  --color-tertiary: #A69992;
+  --color-quaternary: #735E51;
+  --color-quinary: #594539;
+
+  color: var(--color-quinary);
+  background-color: var(--color-primary);
 }
 
 #root {
@@ -20,6 +26,4 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
-  border: 1px solid red;
 }
