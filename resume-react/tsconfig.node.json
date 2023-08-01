@@ -3,9 +3,10 @@
     "composite": true,
     "skipLibCheck": true,
     "module": "ESNext",
-    "moduleResolution": "classic",
+    "moduleResolution": "Node",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "esModuleInterop":true,
     "allowSyntheticDefaultImports": true
   },
   "include": ["vite.config.ts"]
